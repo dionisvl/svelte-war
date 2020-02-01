@@ -1,30 +1,26 @@
 <script>
-	export let name;
+	import Controls from "./components/Controls.svelte";
+	import GameField from "./components/GameField.svelte";
+	import { startGame } from "./gameLoop/gameLoop";
+	startGame();
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
-
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	:global(html) {
+		height: 100%; /* Наша игра будет занимать 100% высоты*/
 	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	:global(body) {
+		height: 100%; /* Наша игра будет занимать 100% высоты*/
+		overscroll-behavior: none; /* отключает pull to refresh*/
+		user-select: none; /* для тач интерфейсов отключает выделение при нажатии */
+		margin: 0; /* убираем отступы*/
+		background-color: #efefef; /* устанавливаем цвет фона */
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* устанавливаем шрифты */
 	}
 </style>
+
+
+<!-- Отображаем компоненты. Заметьте, нам не нужен рут компонент, как, например, в react -->
+<Controls />
+<GameField />
