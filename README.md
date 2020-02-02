@@ -1,11 +1,14 @@
-# Svelte-war
+# svelte.demo.war
 
-Это демо проект игры на фреймворке Svelte  
+Это демо проект игры на фреймворке Svelte   
+http://bestwaypractice.ru/pets/svelte.demo.war/
 
+![](readme.gif)  
+https://habr.com/ru/post/452684/
 ###Клонируем шаблон для разработки
 
 ```
-git clone https://github.com/dionisvl/svelte-war.git
+git clone https://github.com/dionisvl/svelte.demo.war.git
 ```
 
 ###Устанавливаем зависимости.
