@@ -1,7 +1,7 @@
 # svelte.demo.war
 
 Это демо проект игры на фреймворке Svelte   
-http://bestwaypractice.ru/pets/svelte.demo.war/
+http://sveltewar.phpqa.ru/
 
 ![](readme.gif)  
 https://habr.com/ru/post/452684/
