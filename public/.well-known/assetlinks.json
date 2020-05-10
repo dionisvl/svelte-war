@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.phpqa.swar",
+      "sha256_cert_fingerprints": [
+        "5F:21:DD:11:06:23:E1:9C:DB:5C:EF:71:1B:C4:7F:42:F7:40:7C:7E:B7:18:32:A1:BD:D7:EE:58:97:3A:80:1C"
+      ]
+    }
+  }
+]

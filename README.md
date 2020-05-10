@@ -66,6 +66,13 @@ npm run build
 surge public my-project.surge.sh
 ```
 
+
+##PWA
+- Загружаем сайт в Google Play https://vc.ru/dev/76260-zagruzhaem-sayt-v-google-play
+- Upload PWA to Playstore https://appmaker.xyz/pwa-to-apk/
+- Web App Manifest Generator https://app-manifest.firebaseapp.com/
+- Service Workers https://developers.google.com/web/fundamentals/primers/service-workers
+
 ### TODO
 - Добавить обработку проигрыша, когда один из врагов добрался до нижней границы экрана;
 - Добавить подсчет очков;
