@@ -1,11 +1,12 @@
 {
+  "id": "/",
   "name": "Svelte War",
   "short_name": "SVWar",
   "description": "example demo game on Svelte FW",
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "fullscreen",
-  "Scope": "/",
+  "scope": "/",
   "start_url": "/pwa_start_url.html",
   "prefer_related_applications": true,
   "icons": [
@@ -50,5 +51,40 @@
       "type": "image/png"
     }
   ],
-  "splash_pages": null
+  "lang": "en",
+  "dir": "ltr",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "games"
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screen.webp"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "Svelte powered"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "edge_side_panel": {},
+  "shortcuts": [
+    {
+      "name": "Start Game",
+      "short_name": "Play",
+      "description": "Start a new game",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/images/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
 }
