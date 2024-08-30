@@ -5,13 +5,13 @@ http://sveltewar.phpqa.ru/
 
 ![](readme.gif)  
 https://habr.com/ru/post/452684/
-###Клонируем шаблон для разработки
+### Клонируем шаблон для разработки
 
 ```
 git clone https://github.com/dionisvl/svelte.demo.war.git
 ```
 
-###Устанавливаем зависимости.
+### Устанавливаем зависимости.
 
 ```
 cd template/
@@ -19,7 +19,7 @@ npm i
 ```
 
 
-###Запускаем dev сервер.
+### Запускаем dev сервер.
 
 ```
 npm run dev
@@ -67,7 +67,7 @@ surge public my-project.surge.sh
 ```
 
 
-##PWA
+## PWA
 - Загружаем сайт в Google Play https://vc.ru/dev/76260-zagruzhaem-sayt-v-google-play
 - Upload PWA to Playstore https://appmaker.xyz/pwa-to-apk/
 - Web App Manifest Generator https://app-manifest.firebaseapp.com/
